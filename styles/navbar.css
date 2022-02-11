@@ -1,0 +1,46 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+}
+.link-list ul {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+.link-list ul li {
+  list-style: none;
+  font-size: 24px;
+}
+.toggle {
+  display: none;
+}
+
+.menu-bar {
+  display: none;
+  padding: 32px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px,
+    rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  position: absolute;
+  top: 20px;
+  right: 30px;
+  border-radius: 8px;
+  z-index: 10;
+  background-color: white;
+}
+.menu-bar ul {
+  list-style: none;
+}
+.menu-bar ul li {
+  margin-bottom: 8px;
+}
+@media only screen and (max-width: 945px) {
+  .link-list {
+    display: none;
+  }
+  .toggle {
+    display: block;
+    cursor: pointer;
+  }
+}

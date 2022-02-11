@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <link rel="icon" href="devchallenges.png" />
+    <link rel="shortcut icon" type="image/x-icon" href="https://devchallenges.io/" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <title>Edie</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navbar -->
+      <nav>
+        <div class="overlay" onclick="handleToggle()"></div>
+        <div class="logo">
+          <h1>Edie</h1>
+        </div>
+        <div class="link-list">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#service">Service</a> </li>
+            <li><a href="#ourworks">Our Works</a></li>
+              <li>Clients</li>
+              <li>Contact</li>
+            </ul>
+        </div>
+        <div class="toggle" onclick="handleToggle()">
+            <span class="material-icons menu-icon">
+              menu
+            </span>
+            <span class="material-icons close-icon">
+              close
+            </span>
+        </div>
+        <div class="menu-bar" onclick="handleToggle()">
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#service">Service</a> </li>
+              <li><a href="#ourworks">Our Works</a></li>
+            <li>Clients</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+        </nav>
+        <!-- Hero Section -->
+        <div class="hero-section">
+        <div class="info-content">
+          <p class="sub-title">Unhappy with your website?</p>
+          <p class="title">We create beautiful and fast web services</p>
+        </div>
+        <img src="./assets/images/heroImage.jpg" alt="homepage" />
+        <div class="info-content">
+          <p class="second-title">Story, emotion and purpose</p>
+          <p class="content">We help transform your ideas into real world applications that will 
+            outperform your toughest competition and help you achieve your strategic goals in short period of time.</p>
+        </div>
+        <div class="info-contact">
+          <p class="title">Want us to contact you?</p>
+          <div class="form-container">
+            <input type="text" name="email" placeholder="Email">
+            <button type="submit">Join</button>
+          </div>
+        </div>
+        </div>
+        <!-- Service Section -->
+        <div class="service-section" id="service">
+        <p class="title">We offer high demand services</p>
+        <div class="card-container">
+          <div class="card">
+            <span class="material-icons card-1">
+              create
+            </span>
+            <p class="card-title">UI/UX Design</p>
+            <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+              <button class="card-button">Get Started</button>
+          </div>
+          <div class="card">
+            <span class="material-icons card-2">
+              code
+            </span>
+            <p class="card-title">Front End</p>
+            <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+              <button class="card-button">Get Started</button>
+          </div>
+          <div class="card">
+            <span class="material-icons card-3">
+              storage
+            </span>
+            <p class="card-title">Back End</p>
+            <p class="card-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+              Duis a metus ac nulla consequat aliquet id quis turpis.</p>
+            <button class="card-button">Get Started</button>
+          </div>
+        </div>
+        </div>
+        <!-- Project Section -->
+        <div class="project-section" id="ourworks">
+        <p class="title">Good design means good business</p>
+        <div class="card-container-portofolio">
+          <div class="card-portofolio">
+            <img class="image" src="./assets/images/smarthome.jpg" />
+            <p class="type">Full stack application</p>
+            <p class="title">Smart home dashboard</p>
+          </div>
+          <div class="card-portofolio">
+            <img class="image" src="./assets/images/onboard.png" />
+            <p class="type">UX/UI design</p>
+            <p class="title">Onboard application</p>
+          </div>
+          <div class="card-portofolio">
+            <img class="image" src="./assets/images/booking.png" />
+            <p class="type">Mobile application</p>
+            <p class="title">Booking system</p>
+          </div>
+          <div class="card-portofolio">
+            <img class="image" src="./assets/images/juice-product.png" />
+            <p class="type">Front End application</p>
+            <p class="title">Juice product homepage</p>
+          </div>
+        </div>
+        <div class="see-more-container">
+          <a href="#">see more</a>
+          <span class="material-icons card-1">
+            arrow_right_alt
+          </span>
+        </div>
+        </div>
+        <!-- Team Section -->
+        <div class="team-section">
+        <div class="info-team-content">
+          <p class="team-info-subtitle">Meet the team</p>
+          <p class="team-info-title">We are chilled and a laidback team</p>
+          <p class="team-info-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="team-member">
+          <img class="image-1" src="/assets/images/person3.png" alt="person3">
+          <div class="more-team-member">
+            <img class="image-2" src="/assets/images/person1.png" alt="person1">
+            <img class="image-3" src="/assets/images/person2.png" alt="person2">
+          </div>
+        </div>
+        </div>
+        <!-- Quote Section -->
+        <div class="quote-section">
+        <p class="quote">
+          “Fast and outstanding resutls.
+           Edie understands their customer’s needs. 
+           They have a young and talented team.”
+        </p>
+        <div class="bio">
+          <img src="./assets/images/person4.png" alt="person4">
+          <div class="info">
+            <p class="name">Carlos Tran</p>
+            <p class="job">The Decorate Gatsby</p>
+          </div>
+        </div>
+        </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <div class="footer-list-link">
+          <a href="#">Home</a>
+          <a href="#service">Service</a> 
+          <a href="#ourworks">Our Works</a>
+          <a href="#">Clients</a>
+          <a href="#">Contact</a>
+        </div>
+        <div class="footer-social-list">
+            <h1>Edie</h1>
+            <div class="list">
+              <img src="./assets/icons/instagram.svg" alt="">
+              <img src="./assets/icons/linkedin.svg" alt="">
+              <img src="./assets/icons/twitter.svg" alt="">
+            </div>
+        </div>
+        <div class="info-contact-footer">
+          <p class="title">Want us to contact you?</p>
+          <div class="form-container">
+            <input type="text" name="email" placeholder="Email">
+            <button type="submit">Join</button>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p class="content">
+          created by 
+          <span class="underline">
+            ridopurnomo86
+          </span>
+         - devChallenges.io</p>
+      </div>
+    </footer>
+
+    <script>
+      let state = null;
+      const toggle = document.getElementsByClassName('toggle');
+      const menuIcon = document.getElementsByClassName('menu-icon')
+      const closeIcon = document.getElementsByClassName('close-icon')
+      const menuBar = document.getElementsByClassName('menu-bar')
+      const overlay = document.getElementsByClassName('overlay')
+      const body = document.querySelectorAll('body')
+
+      const handleToggle = () => {
+        if (menuIcon[0].style.display === "" || menuIcon[0].style.display === "inline-block") {
+          menuIcon[0].style.display = "none";
+          closeIcon[0].style.display = "inline-block"
+          menuBar[0].style.display = "block"
+          body[0].style.overflow = "hidden"
+          overlay[0].style.display = "block"
+        } else {
+          menuIcon[0].style.display = "inline-block";
+          closeIcon[0].style.display = "none"
+          menuBar[0].style.display = "none"
+          body[0].style.overflow = "auto"
+          overlay[0].style.display = "none"
+        }
+      }
+
+    </script>
+  </body>
+</html>

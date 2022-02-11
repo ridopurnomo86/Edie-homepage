@@ -1,0 +1,113 @@
+.hero-section {
+  width: 100%;
+  margin: 100px 0px;
+}
+.hero-section img {
+  width: 100%;
+  border-radius: 18px;
+  object-fit: cover;
+  margin: 42px 0px;
+}
+
+.info-content {
+  width: 543px;
+  margin: 0px 277px;
+}
+
+.info-content .sub-title {
+  color: var(--blue);
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.info-content .title {
+  font-weight: 500;
+  font-size: 48px;
+}
+.info-content .second-title {
+  font-weight: 500;
+  font-size: 48px;
+  margin-bottom: 42px;
+}
+
+.info-contact {
+  margin: 42px 277px;
+}
+.info-contact .title {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--shadesGrayOptional);
+}
+
+.form-container {
+  position: relative;
+  display: flex;
+  width: 350px;
+}
+.form-container input {
+  border: none;
+  outline: none;
+  border-radius: 12px;
+  width: 100%;
+  display: block;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 15px 21px;
+  background-color: var(--shadesGraySecondary);
+  margin-top: 12px;
+}
+.form-container button {
+  position: absolute;
+  top: 18px;
+  right: 5px;
+  padding: 13px 28px;
+  color: white;
+  border-radius: 12px;
+  background-color: var(--blue);
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.form-container button:hover {
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 1400px) {
+  .info-content {
+    margin: 0px 125px;
+  }
+  .info-contact {
+    margin: 42px 125px;
+  }
+}
+
+@media only screen and (max-width: 945px) {
+  .info-content {
+    margin: 0px 40px;
+  }
+  .info-contact {
+    margin: 42px 40px;
+  }
+}
+
+@media only screen and (max-width: 620px) {
+  .info-content {
+    margin: 0px 0px;
+    width: 100%;
+  }
+  .info-contact {
+    margin: 42px 0px;
+  }
+  .info-content .title {
+    font-weight: 500;
+    font-size: 32px;
+  }
+  .info-content .second-title {
+    font-weight: 500;
+    font-size: 32px;
+    margin-bottom: 42px;
+  }
+  .form-container {
+    width: 100%;
+  }
+}

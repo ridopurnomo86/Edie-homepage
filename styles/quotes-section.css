@@ -1,0 +1,47 @@
+.quote-section {
+  margin-bottom: 204px;
+}
+
+.quote-section .quote {
+  font-weight: 500;
+  font-size: 36px;
+  max-width: 937px;
+}
+
+.quote-section .bio {
+  margin-top: 45px;
+}
+
+.quote-section .bio img {
+  width: 82px;
+  height: 82px;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.quote-section .bio {
+  display: flex;
+  align-items: center;
+}
+
+.quote-section .bio .info {
+  margin-left: 30px;
+}
+
+.quote-section .bio .info .name {
+  font-size: 24px;
+  font-weight: 500;
+}
+.quote-section .bio .info .job {
+  font-weight: 500;
+  font-size: 18px;
+  color: var(--shadesGrayOptional);
+}
+
+@media only screen and (max-width: 765px) {
+  .quote-section .quote {
+    font-weight: 500;
+    font-size: 24px;
+    max-width: 937px;
+  }
+}

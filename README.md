@@ -11,7 +11,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="homepage">
+    <a href="#">
       Solution
     </a>
     <span> | </span>
